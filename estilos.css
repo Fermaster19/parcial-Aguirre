@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=DynaPuff:wght@400..700&family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=DynaPuff:wght@400..700&display=swap');
+*{
+        font-family: "Unbounded", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        margin:5px;
+
+}
+body{
+    background-color: #03237b65;
+}
+.Producto{
+    width: 250px;
+    border: 5px solid #010b0a;
+    background-color: #7f6adf;
+    padding: 20px;
+    border-radius: 50px;
+ 
+}
+
+.Principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+}
+img{
+    filter:blur(200%);
+    width: 100%;
+}
+h1{
+    font-family: "Bungee Tint", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+    background-image: url(/imagenes/zapatillap1.jpeg);
+    
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    border-radius: 100px;
+    padding: 100px 20px;
+    height: 450px;
+    text-align: center;
+    font-size: 4cm;
+    text-transform: uppercase;
+    text-shadow: 5px 5px rgb(8, 72, 174);
+}
+
+.Boton-compra{
+    text-decoration: none;
+    width: 90px;
+    padding: 10px 20px;
+    background-color: #6103d3;
+    color: whitesmoke;
+    border-radius: 100px;
+    font-weight: 400;
+    display: flex;
+    align-items:flex-end;
+}
+nav{
+    background-color: #7a9fbc ;
+    padding: 30px;
+    color: #FFECEF ;
+    border-radius: 100px;
+    border: 5px solid #010b0a;
+}
+.ancho{
+    height: 385px;
+}
+.instagram{
+    display: flex;
+    align-items:flex-start;
+}
